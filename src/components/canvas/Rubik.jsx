@@ -20,7 +20,7 @@ const Rubik = ({ isMobile }) => {
       />
       <primitive
         object={rubik.scene}
-        scale={isMobile ? 0.6 : 0.5}
+        scale={isMobile ? 0.6 : 0.4}
         position={isMobile ? [0, 0.5, 0] : [0, 0, 0]}
         rotation={[0.5, 0.5, -0.3]}
       />
