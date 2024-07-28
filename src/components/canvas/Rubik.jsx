@@ -9,7 +9,7 @@ const Rubik = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={1} />
+      {/* <hemisphereLight intensity={1} />
       <pointLight intensity={3} />
       <spotLight
         position={[0, 10, 0]}
@@ -17,7 +17,7 @@ const Rubik = ({ isMobile }) => {
         penumbra={1}
         intentsity={5}
         shadow-mapSize={1024}
-      />
+      /> */}
       <primitive
         object={rubik.scene}
         scale={isMobile ? 0.6 : 0.4}
