@@ -41,6 +41,8 @@ import carrent from "./carrent.png";
 import aquatehnika from "./aquatehnika.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import reworks from "./reworks.webp";
+import triin from "./triin-portfolio.webp";
 
 import linkedin from "./linkedin.png";
 import facebook from "./facebook.png";
@@ -85,5 +87,7 @@ export {
   tripguide,
   aquatehnika,
   linkedin,
-  facebook
+  facebook,
+  reworks,
+  triin
 };

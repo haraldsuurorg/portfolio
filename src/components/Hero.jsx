@@ -10,12 +10,12 @@ const Hero = () => {
         <div className="flex xxs:w-full lg:w-1/2 xxs:h-1/2 lg:h-screen xxs:items-end lg:items-center">
           <div className="max-w-7xl mx-auto flex flex-row items-center gap-5">
             <div className="flex flex-col justify-center items-center mt-5">
-              <div className="w-5 h-5 rounded-full bg-[#915eff]" />
+              <div className="w-5 h-5 rounded-full bg-[#4169E1]" />
               <div className="w-1 sm:h-80 h-40 violet-gradient" />
             </div>
 
             <div className="flex flex-col justify-center">
-              <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Harald</span></h1>
+              <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#4169E1]">Harald</span></h1>
               <p className={`${styles.heroSubText} mt-2 text-white-100`}>
                 I develop interactive web applications <br className="sm:block hidden" />
                 and user interfaces
@@ -31,7 +31,7 @@ const Hero = () => {
 
       <div className="absolute bottom-10 w-full flex justify-center items-center">
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary hidden md:flex justify-center items-start p-2">
             <motion.div
               animate={{
                 y: [0, 24, 0]

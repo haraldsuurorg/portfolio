@@ -32,6 +32,8 @@ import {
     jobit,
     tripguide,
     aquatehnika,
+    reworks,
+    triin,
   } from "../assets";
   
   export const navLinks = [
@@ -226,49 +228,49 @@ import {
       ],
       image: aquatehnika,
       source_code_link: "https://aquatehnika.ee",
-    }
-    // {
-    //   name: "Job IT",
-    //   description:
-    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "restapi",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "scss",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: jobit,
-    //   source_code_link: "https://github.com/",
-    // },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+    },
+    {
+      name: "Triin Porfolio",
+      description:
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nextjs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "i18n-intl",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: triin,
+      source_code_link: "https://triin-portfolio.vercel.app/",
+    },
+    {
+      name: "REWorks",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JS, SCSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: reworks,
+      source_code_link: "https://reworksest.vdisain.dev/",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
