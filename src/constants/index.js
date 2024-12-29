@@ -209,6 +209,48 @@ import {
   
   const projects = [
     {
+      name: "Triin Porfolio",
+      description:
+        "Proffessional portfolio website built with React and NextJS. Boasts a functional i18n system to allow for multilinguality.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nextjs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "i18n",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: triin,
+      source_code_link: "https://triin-portfolio.vercel.app/",
+    },
+    {
+      name: "REWorks",
+      description:
+        "Wordpress website built from scratch using PHP, JS, SCSS and some addons. It is fast, intriguing, responosive and excellent SEO",
+      tags: [
+        {
+          name: "wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JS, SCSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: reworks,
+      source_code_link: "https://reworksest.vdisain.dev/",
+    },
+    {
       name: "Aquatehnika",
       description:
         "Explore my debut homepage, where I've embraced minimalism and simplicity while adding captivating design elements. This website exemplifies the beauty of a clean, straightforward design with unique touches.",
@@ -228,49 +270,7 @@ import {
       ],
       image: aquatehnika,
       source_code_link: "https://aquatehnika.ee",
-    },
-    {
-      name: "Triin Porfolio",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "nextjs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "i18n-intl",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: triin,
-      source_code_link: "https://triin-portfolio.vercel.app/",
-    },
-    {
-      name: "REWorks",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "wordpress",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "PHP",
-          color: "green-text-gradient",
-        },
-        {
-          name: "JS, SCSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: reworks,
-      source_code_link: "https://reworksest.vdisain.dev/",
-    },
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };
