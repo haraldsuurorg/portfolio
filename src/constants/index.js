@@ -211,7 +211,7 @@ import {
     {
       name: "Triin Porfolio",
       description:
-        "Proffessional portfolio website built with React and NextJS. Boasts a functional i18n system to allow for multilinguality.",
+        "Proffessional portfolio website built with React and NextJS. Boasts a functional i18n system to allow for multilinguality. The chosen i18n library is next-intl.",
       tags: [
         {
           name: "react",
@@ -232,18 +232,18 @@ import {
     {
       name: "REWorks",
       description:
-        "Wordpress website built from scratch using PHP, JS, SCSS and some addons. It is fast, intriguing, responosive and excellent SEO",
+        "Wordpress website built from scratch using PHP, JS, SCSS and some addons. It is fast, responosive across all devices and has excellent SEO.",
       tags: [
         {
-          name: "wordpress",
+          name: "PHP",
           color: "blue-text-gradient",
         },
         {
-          name: "PHP",
-          color: "green-text-gradient",
+          name: "JS",
+          color: "yellow-text-gradient",
         },
         {
-          name: "JS, SCSS",
+          name: "SCSS",
           color: "pink-text-gradient",
         },
       ],
@@ -253,7 +253,7 @@ import {
     {
       name: "Aquatehnika",
       description:
-        "Explore my debut homepage, where I've embraced minimalism and simplicity while adding captivating design elements. This website exemplifies the beauty of a clean, straightforward design with unique touches.",
+        "Explore my debut homepage, where I've embraced minimalism and simplicity while adding captivating design elements. It is built with Elementor and Wordpress.",
       tags: [
         {
           name: "wordpress",
@@ -264,8 +264,8 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "javascript",
-          color: "pink-text-gradient",
+          name: "JS",
+          color: "yellow-text-gradient",
         },
       ],
       image: aquatehnika,
