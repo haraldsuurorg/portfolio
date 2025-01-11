@@ -24,13 +24,6 @@ import {
     saninudge,
     vdisain,
     estpanel,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     aquatehnika,
     reworks,
     triin,
@@ -44,6 +37,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -214,12 +211,16 @@ import {
         "Proffessional portfolio website built with React and NextJS. Boasts a functional i18n system to allow for multilinguality. The chosen i18n library is next-intl.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "React",
+          color: "react-text-gradient",
         },
         {
-          name: "nextjs",
+          name: "Next.js",
           color: "green-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "blue-text-gradient",
         },
         {
           name: "i18n",
@@ -236,15 +237,15 @@ import {
       tags: [
         {
           name: "PHP",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JS",
-          color: "yellow-text-gradient",
+          color: "php-text-gradient",
         },
         {
           name: "SCSS",
           color: "pink-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "yellow-text-gradient",
         },
       ],
       image: reworks,
@@ -256,15 +257,15 @@ import {
         "Explore my debut homepage, where I've embraced minimalism and simplicity while adding captivating design elements. It is built with Elementor and Wordpress.",
       tags: [
         {
-          name: "wordpress",
+          name: "Wordpress",
           color: "blue-text-gradient",
         },
         {
-          name: "elementor",
-          color: "green-text-gradient",
+          name: "Elementor",
+          color: "pink-text-gradient",
         },
         {
-          name: "JS",
+          name: "JavaScript",
           color: "yellow-text-gradient",
         },
       ],

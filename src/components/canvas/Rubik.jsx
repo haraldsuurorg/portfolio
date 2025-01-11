@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
 const Rubik = ({ isMobile }) => {
-  const rubik = useGLTF('./rubik/scene.gltf')
+  const rubik = useGLTF('./rubik/compressed_scene.gltf')
 
   return (
     <mesh>
