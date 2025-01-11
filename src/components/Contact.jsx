@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
@@ -22,6 +22,16 @@ const Contact = () => {
     message: '',
   });
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const loadReCaptcha = () => {
+      const script = document.createElement('script');
+      script.src = `https://www.google.com/recaptcha/api.js?render=${RECAPTCHA_SITE_KEY}`;
+      script.async = true;
+      document.body.appendChild(script);
+    };
+    loadReCaptcha();
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;

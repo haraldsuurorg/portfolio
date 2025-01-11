@@ -7,4 +7,9 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
+  server: {
+    headers: {
+      'Content-Security-Policy': "frame-ancestors 'self' https://www.google.com"
+    }
+  }
 })
