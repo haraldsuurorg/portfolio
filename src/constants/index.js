@@ -228,7 +228,7 @@ import {
         },
       ],
       image: triin,
-      source_code_link: "https://triin-portfolio.vercel.app/",
+      source_code_link: "https://www.triinsuurorg.ee/",
     },
     {
       name: "REWorks",
