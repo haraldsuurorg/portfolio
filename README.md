@@ -1,3 +1,4 @@
 # HS Portfolio
 
-Stack: React, Three.js, Next.js, Vite, Tailwind CSS
+- Portfolio page enriched with captivating 3D elements
+- Stack: React, Three.js, Next.js, Vite, Tailwind CSS
