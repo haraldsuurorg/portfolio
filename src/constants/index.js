@@ -24,6 +24,7 @@ import {
     saninudge,
     vdisain,
     estpanel,
+    sleekedge,
     aquatehnika,
     reworks,
     triin,
@@ -124,11 +125,24 @@ import {
   
   const experiences = [
     {
+      title: "Full stack Web Developer and Founder",
+      company_name: "sleekedge",
+      icon: sleekedge,
+      iconBg: "#E6DEDD",
+      date: "March 2024 - Present",
+      points: [
+        "Developing fully responsive, fast and easily maintainable websites and e-shops using modern web technologies and best practices",
+        "Designing scalable and efficient software architectures that ensure long-term maintainability and performance",
+        "Developing custom solutions tailored to specific client needs, including complex integrations and unique functionality requirements",
+        "Managing projects and client accounts from initial consultation through deployment and ongoing maintenance, ensuring clear communication and timely delivery",
+      ],
+    },
+    {
       title: "Full stack Web Developer",
       company_name: "vDisain",
       icon: vdisain,
       iconBg: "#E6DEDD",
-      date: "Dec 2023 - Present",
+      date: "Dec 2023 - Feb 2024",
       points: [
         "Developing fully responsive, fast and easily maintainable websites and e-shops",
         "Doing complex maintenace and improvements on existing websites",
@@ -157,7 +171,7 @@ import {
       date: "Mar 2022 - Aug 2023",
       points: [
         "Created detailed and competitive price offers for wooden element houses for incoming customers, ensuring clarity and comprehensiveness",
-        "dentified, evaluated, and selected the most suitable subcontractors for each project to ensure the highest standards of work",
+        "Identified, evaluated, and selected the most suitable subcontractors for each project to ensure the highest standards of work",
         "Managed all aspects of onsite construction to ensure timely, efficient, and high-quality project completion",
         "Continuously monitored and implemented strategies to improve efficiency and quality both onsite and in production processes",
       ],
@@ -249,7 +263,7 @@ import {
         },
       ],
       image: reworks,
-      source_code_link: "https://reworksest.vdisain.dev/",
+      source_code_link: "https://reworkse.ee",
     },
     {
       name: "Aquatehnika",

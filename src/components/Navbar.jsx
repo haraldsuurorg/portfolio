@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex items-center py-5 fixed top-0 z-10">
+    <nav className="w-full flex items-center py-5 fixed top-0 z-10 backdrop-blur-xl">
       <div className={`${styles.paddingX} w-full flex justify-between items-center max-w-7xl mx-auto`}>
         <Link
           to="/"
@@ -20,8 +20,7 @@ const Navbar = () => {
             window.scrollTo(0,0);
           }}
           >
-            <img src={logo} alt="logo" className="w-9 h9 object-contain" />
-            <p className="text-white text-[18px] font-bold cursor-pointer flex"> &nbsp; Harald &nbsp;<span className="sm:block hidden">Suurorg</span>
+            <p className="text-white text-[24px] font-bold cursor-pointer flex"> &nbsp; Harald &nbsp;<span className="sm:block hidden">Suurorg</span>
             </p>
         </Link>
 

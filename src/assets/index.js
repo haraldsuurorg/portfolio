@@ -36,6 +36,7 @@ import tesla from "./company/tesla.png";
 import saninudge from "./company/saninudge.png";
 import vdisain from "./company/vdisain.png";
 import estpanel from "./company/estpanel.png";
+import sleekedge from "./company/sleekedge.png";
 
 import carrent from "./carrent.png";
 import aquatehnika from "./aquatehnika.png";
@@ -82,6 +83,7 @@ export {
   saninudge,
   vdisain,
   estpanel,
+  sleekedge,
   carrent,
   jobit,
   tripguide,
