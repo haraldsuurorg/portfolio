@@ -31,7 +31,7 @@ const Navbar = () => {
               className={ `${
                 active === nav.title
                   ? "text-white"
-                  : "text-secondary"
+                  : "text-white"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
@@ -56,7 +56,7 @@ const Navbar = () => {
                   className={ `${
                     active === nav.title
                       ? "text-white"
-                      : "text-secondary"
+                      : "text-white"
                   } font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle(!toggle);

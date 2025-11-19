@@ -45,7 +45,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="{mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]}"
+        className="{mt-4 text-white text-[17px] max-w-3xl leading-[30px]}"
       >
         In 2020, I ventured into web development for the first time to create a website for a local business I was starting. Using resources like YouTube, I quickly learned to build a live website in just two days using WordPress and Elementor. Unfortunately, the business didn’t last beyond that summer. Looking back, the most exciting part of the journey was crafting the homepage for the website.
       </motion.p>
